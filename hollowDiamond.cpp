@@ -23,8 +23,10 @@ int main()
        cout << endl;
        
     }
+    //bottom
     for (int i = 0; i < (n-1); i++)
     {
+        //spaces
         for (int j = 0; j < i+1; j++)
         {
             cout << " ";
@@ -32,6 +34,7 @@ int main()
         cout << "*";
         if (i != n-2)
         {
+            //Spaces
             for (int j = 0; j < 2*(n-i)-5; j++)
             {
                 cout << " ";
